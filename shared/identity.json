@@ -1,0 +1,21 @@
+{
+    "$schema": "../schema/shared.schema.json",
+    "options": [
+        {
+            "name": "Gender",
+            "entries": ["Male", "Female", "Non-binary"]
+        },
+        {
+            "name": "Pronouns",
+            "entries": ["He/Him", "She/Her", "They/Them", "He/They", "She/They"]
+        },
+        {
+            "name": "Age",
+            "entries": ["Child", "Teenager", "Adult"]
+        },
+        {
+            "name": "Height",
+            "entries": ["Short", "Average", "Tall"]
+        }
+    ]
+}

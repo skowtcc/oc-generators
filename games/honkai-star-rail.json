@@ -1,4 +1,7 @@
 {
+    "$schema": "../schema/game.schema.json",
+    "name": "Honkai: Star Rail",
+    "shared": ["identity", "appearance", "personality"],
     "options": [
         {
             "name": "Rarity",
@@ -7,14 +10,15 @@
         {
             "name": "Path",
             "entries": [
-                "Adaptive",
                 "The Abundance",
                 "The Destruction",
+                "The Elation",
                 "The Erudition",
                 "The Harmony",
                 "The Hunt",
                 "The Nihility",
-                "The Preservation"
+                "The Preservation",
+                "The Remembrance"
             ]
         },
         {
@@ -25,9 +29,7 @@
                 "Wind",
                 "Physical",
                 "Ice",
-                "Fire",
                 "Quantum",
-                "Adaptive",
                 "Imaginary"
             ]
         },
@@ -38,7 +40,6 @@
                 "Annihilation Gang",
                 "Xianzhou Alliance",
                 "Cloud Knights",
-                "Xianzhou Luofu Commissions",
                 "Sky-Faring Commission",
                 "Divination Commission",
                 "Realm-Keeping Commission",
@@ -48,7 +49,7 @@
                 "Hexafleet",
                 "Galaxy Rangers",
                 "Disciples of Sanctus Medicus",
-                "Abominations of Abundance",
+                "Denizens of Abundance",
                 "Elixir Seekers",
                 "The Architects",
                 "Interastral Peace Corporation",
@@ -72,124 +73,101 @@
                 "The Union",
                 "Silvermane Guards",
                 "Wildfire",
-                "Intergalactic Merchant Guild"
+                "Intergalactic Merchant Guild",
+                "Astral Express",
+                "The Nameless",
+                "Ten Stonehearts",
+                "Beyond-the-Sky Choir",
+                "Oak Family",
+                "Iris Family",
+                "Bloodhound Family",
+                "Nightingale Family",
+                "Alfalfa Family",
+                "Dreamjolt Troupe",
+                "The Xianzhou Yaoqing",
+                "The Xianzhou Zhuming",
+                "The Xianzhou Yuque",
+                "Chrysos Heirs",
+                "Kremnoan Dynasty",
+                "Twilight Courtyard",
+                "Ashen Detective Agency",
+                "Department of Aberration Defense",
+                "Graphia Academy",
+                "Magical Girl Troupe",
+                "Synwish Syndicate",
+                "Interastral Peace Entertainment"
             ]
         },
         {
             "name": "Location",
             "entries": [
                 "Administrative District",
+                "Aedes Elysiae",
+                "Amphoreus",
                 "Astral Express",
+                "Astropolis",
+                "Aurum Alley",
                 "Base Zone",
                 "Belobog",
                 "Boulder Town",
+                "Castrum Kremnos",
+                "Central Starskiff Haven",
+                "Clock Studios Theme Park",
+                "Cloudford",
+                "Dawncloud",
+                "Dewlight Pavilion",
+                "Dragonbone City",
+                "Dreamflux Reef",
+                "Duomension City",
                 "Eversummer Florist",
                 "Everwinter Hill",
                 "Everwinter Monument",
+                "Exalting Sanctum",
                 "Fight Club",
+                "Fyxestroll Garden",
                 "Gathering Place",
                 "Goethe Grand Hotel",
-                "Goethe Hotel",
+                "Golden Hour",
                 "Golden Theater",
                 "Great Mine",
+                "Grove of Epiphany",
                 "Herta Space Station",
+                "Inkford Hermitage",
+                "Janusopolis",
                 "Jarilo-VI",
+                "Lodestar Tower",
                 "Master Control Zone",
                 "Natasha's Clinic",
+                "Okhema",
                 "Orphanage",
                 "Overworld",
+                "Pearluxe Tower",
+                "Penacony",
+                "Penacony Grand Theater",
+                "Phantasmoon Courtyard",
+                "Planarcadia",
                 "Qlipoth Fort",
                 "Rivet Town",
                 "Robot Settlement",
+                "Scalegorge Waterscape",
+                "Seafeld City",
                 "Seat of Divine Foresight",
+                "Stargazer Navalia",
                 "Storage Zone",
+                "Styxia",
                 "Supply Zone",
                 "Svarog Mansion",
+                "The Radiant Feldspar",
+                "The Reverie",
+                "The Shackling Prison",
                 "The Xianzhou Luofu",
                 "Underground Operations",
                 "Underworld"
             ]
         },
         {
-            "name": "Gender",
-            "entries": ["Male", "Female", "Non-binary"]
-        },
-        {
-            "name": "Pronouns",
-            "entries": ["He/Him", "She/Her", "They/Them", "He/They", "She/They"]
-        },
-        {
-            "name": "Height",
-            "entries": ["Short", "Average", "Tall"]
-        },
-        {
-            "name": "Age",
-            "entries": ["Child", "Teenager", "Adult"]
-        },
-        {
             "name": "Role",
             "entries": ["DPS", "Support", "Sub-DPS", "Healer", "Tank"]
-        },
-        {
-            "name": "Hair Type",
-            "entries": ["Short", "Medium", "Long"]
-        },
-        {
-            "name": "Hair Style",
-            "entries": ["Curly", "Straight", "Wavy"]
-        },
-        {
-            "name": "Personality Type",
-            "entries": [
-                "INTP",
-                "INTJ",
-                "ENTP",
-                "ENTJ",
-                "INFJ",
-                "INFP",
-                "ENFJ",
-                "ENFP",
-                "ISTJ",
-                "ISFJ",
-                "ESTJ",
-                "ESFJ",
-                "ISTP",
-                "ISFP",
-                "ESTP",
-                "ESFP"
-            ]
-        },
-        {
-            "name": "Hair Color",
-            "entries": [
-                "Black",
-                "Blue",
-                "Brown",
-                "Gray",
-                "Green",
-                "Orange",
-                "Pink",
-                "Purple",
-                "Red",
-                "White",
-                "Yellow"
-            ]
-        },
-        {
-            "name": "Eye Color",
-            "entries": [
-                "Black",
-                "Blue",
-                "Brown",
-                "Gray",
-                "Green",
-                "Orange",
-                "Pink",
-                "Purple",
-                "Red",
-                "White",
-                "Yellow"
-            ]
         }
     ]
 }

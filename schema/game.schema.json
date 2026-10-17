@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "game.schema.json",
+    "title": "Game generator",
+    "type": "object",
+    "required": ["name", "shared", "options"],
+    "additionalProperties": false,
+    "properties": {
+        "$schema": { "type": "string" },
+        "name": { "type": "string", "minLength": 1 },
+        "shared": {
+            "description": "Shared groups (shared/<group>.json) this game uses.",
+            "type": "array",
+            "items": { "enum": ["identity", "appearance", "personality"] },
+            "uniqueItems": true
+        },
+        "options": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/option" }
+        }
+    },
+    "$defs": {
+        "option": {
+            "type": "object",
+            "required": ["name", "entries"],
+            "additionalProperties": false,
+            "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "entries": {
+                    "type": "array",
+                    "items": { "type": "string", "minLength": 1 },
+                    "uniqueItems": true
+                }
+            }
+        }
+    }
+}

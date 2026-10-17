@@ -1,0 +1,64 @@
+{
+    "$schema": "../schema/game.schema.json",
+    "name": "Zenless Zone Zero",
+    "shared": ["identity", "appearance", "personality"],
+    "options": [
+        {
+            "name": "Rank",
+            "entries": ["S-Rank", "A-Rank"]
+        },
+        {
+            "name": "Attribute",
+            "entries": [
+                "Physical",
+                "Fire",
+                "Ice",
+                "Electric",
+                "Ether",
+                "Wind",
+                "Lumiflux"
+            ]
+        },
+        {
+            "name": "Specialty",
+            "entries": [
+                "Attack",
+                "Stun",
+                "Anomaly",
+                "Support",
+                "Defense",
+                "Rupture",
+                "Armorer"
+            ]
+        },
+        {
+            "name": "Faction",
+            "entries": [
+                "Airspace Patrol Department",
+                "Angels of Delusion",
+                "Belobog Heavy Industries",
+                "Covenant of Dayat",
+                "Criminal Investigation Special Response Team",
+                "Cunning Hares",
+                "Defense Force - Silver Squad",
+                "External Strategy Department",
+                "Flint Workshop",
+                "Hollow Special Operations Section 6",
+                "Krampus Compliance Authority",
+                "Metropolitan Order Division",
+                "Mockingbird",
+                "Obol Squad",
+                "Phaethon",
+                "Sons of Calydon",
+                "Spook Shack",
+                "Stars of Lyra",
+                "Victoria Housekeeping Co.",
+                "Yunkui Summit"
+            ]
+        },
+        {
+            "name": "Species",
+            "entries": ["Human", "Thiren", "Intelligent Construct"]
+        }
+    ]
+}

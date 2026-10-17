@@ -1,0 +1,30 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "shared.schema.json",
+    "title": "Shared option group",
+    "type": "object",
+    "required": ["options"],
+    "additionalProperties": false,
+    "properties": {
+        "$schema": { "type": "string" },
+        "options": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/option" }
+        }
+    },
+    "$defs": {
+        "option": {
+            "type": "object",
+            "required": ["name", "entries"],
+            "additionalProperties": false,
+            "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "entries": {
+                    "type": "array",
+                    "items": { "type": "string", "minLength": 1 },
+                    "uniqueItems": true
+                }
+            }
+        }
+    }
+}

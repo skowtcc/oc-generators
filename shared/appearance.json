@@ -1,0 +1,68 @@
+{
+    "$schema": "../schema/shared.schema.json",
+    "options": [
+        {
+            "name": "Hair Type",
+            "entries": ["Short", "Medium", "Long"]
+        },
+        {
+            "name": "Hair Style",
+            "entries": ["Curly", "Straight", "Wavy"]
+        },
+        {
+            "name": "Hair Color",
+            "entries": [
+                "Black",
+                "Blue",
+                "Brown",
+                "Gray",
+                "Green",
+                "Orange",
+                "Pink",
+                "Purple",
+                "Red",
+                "White",
+                "Yellow"
+            ]
+        },
+        {
+            "name": "Eye Color",
+            "entries": [
+                "Black",
+                "Blue",
+                "Brown",
+                "Gray",
+                "Green",
+                "Orange",
+                "Pink",
+                "Purple",
+                "Red",
+                "White",
+                "Yellow"
+            ]
+        },
+        {
+            "name": "Aesthetic",
+            "entries": [
+                "Bohemian",
+                "Cottagecore",
+                "Cyberpunk",
+                "Dark Academia",
+                "Fairycore",
+                "Gothic",
+                "Grunge",
+                "Light Academia",
+                "Minimalist",
+                "Preppy",
+                "Punk",
+                "Royalcore",
+                "Sporty",
+                "Steampunk",
+                "Streetwear",
+                "Techwear",
+                "Vintage",
+                "Y2K"
+            ]
+        }
+    ]
+}

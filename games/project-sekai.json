@@ -1,0 +1,46 @@
+{
+    "$schema": "../schema/game.schema.json",
+    "name": "Project Sekai: Colorful Stage!",
+    "shared": ["identity", "appearance", "personality"],
+    "options": [
+        {
+            "name": "School Year",
+            "entries": ["First Year", "Second Year", "Third Year"]
+        },
+        {
+            "name": "Class",
+            "entries": ["A", "B", "C", "D"]
+        },
+        {
+            "name": "Group",
+            "entries": [
+                "25-ji, Nightcord de.",
+                "Aku no Taizai Series",
+                "Aoharu/friends",
+                "Fantasista SQUAD",
+                "Happiness Sentai SaniSani Wonder!",
+                "Kyujitsu, Shumijin Doushi de.",
+                "Leo/need",
+                "MORE MORE JUMP!",
+                "VIRTUAL SINGER",
+                "Vivid BAD SQUAD",
+                "Wonderlands x Showtime",
+                "YUME YUME JUMP!"
+            ]
+        },
+        {
+            "name": "Position",
+            "entries": [
+                "Vocalist",
+                "Lyricist",
+                "Guitarist",
+                "Keyboardist",
+                "Composer",
+                "Drummer",
+                "Bassist",
+                "Illustrator",
+                "MV Animator"
+            ]
+        }
+    ]
+}
