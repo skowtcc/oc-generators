@@ -1,0 +1,97 @@
+{
+    "$schema": "../schema/game.schema.json",
+    "name": "Honkai Impact 3rd",
+    "shared": ["identity", "appearance", "personality"],
+    "options": [
+        {
+            "name": "Rank",
+            "entries": ["S-Rank", "A-Rank", "B-Rank"]
+        },
+        {
+            "name": "Type",
+            "entries": ["MECH", "BIO", "PSY", "QUA", "IMG", "SD"]
+        },
+        {
+            "name": "Element",
+            "entries": ["Physical", "Fire", "Ice", "Lightning"]
+        },
+        {
+            "name": "Weapon",
+            "entries": [
+                "Bows",
+                "Cannons",
+                "Chained Blades",
+                "Chakrams",
+                "Crosses",
+                "Drive Cores",
+                "Gauntlets",
+                "Greatswords",
+                "Javelins",
+                "Katanas",
+                "Lances",
+                "Pistols",
+                "Rapid-Shot Crossbows",
+                "Rocket Hammers",
+                "Scythes",
+                "Trick Staves"
+            ]
+        },
+        {
+            "name": "Role",
+            "entries": ["DPS", "Support"]
+        },
+        {
+            "name": "Era",
+            "entries": ["Previous Era", "Current Era"]
+        },
+        {
+            "name": "Affiliation",
+            "entries": [
+                "Anti-Entropy",
+                "Captain's Hyperion Crew",
+                "Ferryman's Hyperion Crew",
+                "Flame-Chasers",
+                "House Apocalypse",
+                "House Kaslana",
+                "House Schariac",
+                "ME Corp",
+                "MOTH",
+                "Schicksal",
+                "School of Taixuan",
+                "Seven Shus",
+                "Sky People",
+                "St. Freya High",
+                "World Serpent"
+            ]
+        },
+        {
+            "name": "Herrscher",
+            "entries": [
+                "None",
+                "Herrscher of Binding",
+                "Herrscher of Corruption",
+                "Herrscher of Death",
+                "Herrscher of Dominance",
+                "Herrscher of Earth",
+                "Herrscher of Finality",
+                "Herrscher of Fire",
+                "Herrscher of Flame",
+                "Herrscher of Flamescion",
+                "Herrscher of Human",
+                "Herrscher of Ice",
+                "Herrscher of Legion",
+                "Herrscher of Origin",
+                "Herrscher of Reason",
+                "Herrscher of Rebirth",
+                "Herrscher of Rimestar",
+                "Herrscher of Sentience",
+                "Herrscher of Stars",
+                "Herrscher of the Void",
+                "Herrscher of Thunder",
+                "Herrscher of Time",
+                "Herrscher of Truth",
+                "Herrscher of Wind"
+            ]
+        }
+    ]
+}
